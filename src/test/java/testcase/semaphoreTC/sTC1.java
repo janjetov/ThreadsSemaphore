@@ -1,22 +1,21 @@
-package semaphoreTC;
+package testcase.semaphoreTC;
 
 import org.testng.annotations.Test;
 
-public class sTC6 extends sBaseClass{
+public class sTC1 extends sBaseClass{
 
-    String tcName = "TC-6";
+    String tcName = "TC-1";
 
     //    int initialThreadSleepInterval = 10;
     int preThreadSleepInterval = random.nextInt(initialThreadSleepIntervalMAX);
     int postThreadSleepInterval = random.nextInt(initialThreadSleepIntervalMAX);
 
-    //    int workDurationSeconds = 6;
+//    int workDurationSeconds = 6;
     int workDurationSeconds = random.nextInt(3) + 3;
 
 
-
     @Test
-    public void test6() throws InterruptedException {
+    public void test1() throws InterruptedException {
         System.out.println("*** " + tcName + " starting");
         Thread.sleep(preThreadSleepInterval);
 

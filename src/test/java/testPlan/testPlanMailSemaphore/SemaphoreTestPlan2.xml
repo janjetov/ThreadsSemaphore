@@ -3,15 +3,15 @@
 
     <test name = "Parallel Tests1">
         <classes>
-            <class name = "semaphoreTC_MailRead.mTC1" />
-            <class name = "semaphoreTC_MailRead.mTC2" />
+            <class name = "testcase.semaphoreTC_MailRead.mTC1" />
+            <class name = "testcase.semaphoreTC_MailRead.mTC2" />
         </classes>
     </test>
 
     <test name = "Parallel Tests2">
         <classes>
-            <class name = "semaphoreTC_MailRead.mTC3" />
-            <class name = "semaphoreTC_MailRead.mTC4" />
+            <class name = "testcase.semaphoreTC_MailRead.mTC3" />
+            <class name = "testcase.semaphoreTC_MailRead.mTC4" />
 
         </classes>
     </test>

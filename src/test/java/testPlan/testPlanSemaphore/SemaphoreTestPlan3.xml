@@ -3,22 +3,22 @@
 
     <test name = "Parallel Tests1">
         <classes>
-            <class name = "semaphoreTC.sTC1" />
-            <class name = "semaphoreTC.sTC2" />
+            <class name = "testcase.semaphoreTC.sTC1" />
+            <class name = "testcase.semaphoreTC.sTC2" />
         </classes>
     </test>
 
     <test name = "Parallel Tests2">
         <classes>
-            <class name = "semaphoreTC.sTC3" />
-            <class name = "semaphoreTC.sTC4" />
+            <class name = "testcase.semaphoreTC.sTC3" />
+            <class name = "testcase.semaphoreTC.sTC4" />
         </classes>
     </test>
 
     <test name = "Parallel Tests3">
         <classes>
-            <class name = "semaphoreTC.sTC5" />
-            <class name = "semaphoreTC.sTC6" />
+            <class name = "testcase.semaphoreTC.sTC5" />
+            <class name = "testcase.semaphoreTC.sTC6" />
         </classes>
     </test>
 

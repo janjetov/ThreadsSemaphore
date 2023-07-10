@@ -1,15 +1,16 @@
-package semaphoreTC_MailRead;
+package testcase.semaphoreTC_MailRead;
 
 import org.testng.annotations.Test;
 
-public class mTC5 extends mBaseClass {
+public class mTC2 extends mBaseClass {
 
-    String tcName = "TC-5";
+    String tcName = "TC-2";
     int preThreadSleepInterval = random.nextInt(initialThreadSleepIntervalMAX);
     int postThreadSleepInterval = random.nextInt(initialThreadSleepIntervalMAX);
 
     @Test
-    public void test5() throws InterruptedException {
+    public void test2() throws InterruptedException {
+
         System.out.println("*** " + tcName + ": starting");
         Thread.sleep(preThreadSleepInterval);
 

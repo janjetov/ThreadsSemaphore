@@ -1,4 +1,4 @@
-package semaphoreTC;
+package testcase.semaphoreTC;
 
 import java.util.Random;
 import java.util.concurrent.Semaphore;
