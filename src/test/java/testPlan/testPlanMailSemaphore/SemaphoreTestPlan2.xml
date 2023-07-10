@@ -1,0 +1,19 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name = "Parallel Testing Suite" parallel = "tests" thread-count = "2">
+
+    <test name = "Parallel Tests1">
+        <classes>
+            <class name = "semaphoreTC_MailRead.mTC1" />
+            <class name = "semaphoreTC_MailRead.mTC2" />
+        </classes>
+    </test>
+
+    <test name = "Parallel Tests2">
+        <classes>
+            <class name = "semaphoreTC_MailRead.mTC3" />
+            <class name = "semaphoreTC_MailRead.mTC4" />
+
+        </classes>
+    </test>
+
+</suite>
